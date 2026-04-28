@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShowTime | Game Of Thrones</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="got.css" />
+</head>
+
+<body onclick="skipTyping()">
+    <div class="header-image" id="home">
+        <nav id="nav-id" class="hidden-element">
+            <div class="logo">
+                <img loading="lazy" src="imag-got/logohbo.png" alt="logo" />
+            </div>
+            <ul class="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#video-bottom-id">Trailer</a></li>
+                <li><a href="#episodes">Episodes</a></li>
+                <li><a href="#cast">Cast</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <div id="text-wrapper" data-series="Game of Thrones">
+                <span id="typing-text" class="hero-desc"></span>
+                <span class="cursor">|</span>
+            </div>
+
+            <div id="logo-reveal">
+                <img loading="lazy" src="imag-got/logogot.png" class="floating-logo" />
+            </div>
+        </div>
+
+        <div class="rating-box" id="rating-id">
+            <h1 class="rating-number">9,2</h1>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="rating-text">IMDb Rating</p>
+        </div>
+
+        <div class="video-hero-bottom" id="video-bottom-id">
+            <button class="got-video-frame" id="videoBox" type="button" aria-label="Open trailer">
+                <span class="video-label">Official Trailer</span>
+                <video id="myHeroVideo" loop muted autoplay playsinline>
+                    <source src="imag-got/gottriler.mp4" type="video/mp4">
+                </video>
+                <span class="play-icon"><i class="fa-solid fa-play"></i></span>
+            </button>
+        </div>
+    </div>
+
+    <section id="episodes" class="explore-section py-5">
+    <div class="container-fluid px-5">
+        <div class="row">
+            <div class="col-lg-4 calendar-wrapper">
+                <h2 class="main-title">Top 3 Episode</h2>
+                <div class="calendar-list">
+                    <div class="cal-item">
+                        <div class="cal-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                        <div class="cal-info">
+                            <h5>The Rains of Castamere</h5>
+                            <span>Season 03 - Episode 09</span>
+                        </div>
+                    </div>
+                    <div class="cal-item">
+                        <div class="cal-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                        <div class="cal-info">
+                            <h5>Battle of the Bastards</h5>
+                            <span>Season 06 - Episode 09</span>
+                        </div>
+                    </div>
+                    <div class="cal-item">
+                        <div class="cal-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                        <div class="cal-info">
+                            <h5>Hardhome</h5>
+                            <span>Season 05 - Episode 08</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 explore-wrapper position-relative">
+                <h2 class="main-title">EXPLORE EPISODES</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="episode-card">
+                                <img loading="lazy" src="https://i.pinimg.com/736x/c2/54/80/c254808d483ccc2ef49dfddbaa50e7f1.jpg" alt="">
+                                <h4>Iron Throne</h4>
+                                <span>Season 02 - Episode 06</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="episode-card">
+                                <img loading="lazy" src="https://i.pinimg.com/1200x/6f/d3/d4/6fd3d4bcc6736770ca97ca10836f193d.jpg" alt="">
+                                <h4>The Red Woman</h4>
+                                <span>Season 02 - Episode 07</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="episode-card">
+                                <img loading="lazy" src="https://i.pinimg.com/736x/44/bb/d9/44bbd93049b6075f9971a581291e93b4.jpg" alt="">
+                                <h4>Oathbreaker</h4>
+                                <span>Season 02 - Episode 08</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="after-hero" class="show-info-section">
+    <div class="side-band left-band"></div>
+
+    <div class="container-fluid content-container">
+        <div class="row align-items-center">
+            
+            <div class="col-lg-6 col-md-12 text-center img-side p-0">
+                <img loading="lazy" src="https://i.pinimg.com/736x/05/91/45/05914567560bb38a869fc2dfda4380e6.jpg" alt="Night King" class="king-image">
+            </div>
+
+            <div class="col-lg-6 col-md-12 text-side">
+                <div class="text-wrapper-info">
+                    <h2 class="main-quote">Summers span decades. Winters can last a lifetime.</h2>
+                    <div class="divider"></div>
+                    <p class="description-text">
+                        Game of Thrones is an American fantasy drama television series created by David Benioff and D. B. Weiss.
+                    </p>
+                    <p class="description-text">
+                        It is filmed in Belfast and elsewhere in the United Kingdom, Canada, Croatia, Iceland, Malta, Morocco, Spain, and the United States.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="side-band right-band"></div>
+</section>
+<section id="cast" class="cast-section py-5">
+    <div class="container">
+        <h3 class="text-uppercase mb-5 text-secondary" style="letter-spacing: 3px;">The most important actors</h3>
+        
+        <div class="row align-items-center">
+            <div class="col-md-2 d-flex flex-column align-items-center gap-4 character-nav">
+                <div class="char-thumb active" data-target="tyrion">
+                    <img loading="lazy" src="https://i.pinimg.com/736x/d4/19/0c/d4190cffb4c5ddaae39ad6632c2be2fe.jpg" alt="Tyrion">
+                </div>
+                <div class="char-thumb" data-target="jaime">
+                    <img loading="lazy" src="https://i.pinimg.com/1200x/7c/15/09/7c15099c373eb9528bdb6293aac3f2bb.jpg" alt="Jaime">
+                </div>
+                <div class="char-thumb" data-target="cersei">
+                    <img loading="lazy" src="https://i.pinimg.com/avif/1200x/4f/ef/65/4fef6568fe55439881443271511b701d.avf" alt="Cersei">
+                </div>
+                <div class="char-thumb" data-target="daenerys">
+                    <img loading="lazy" src="https://i.pinimg.com/736x/c8/87/b0/c887b06ad71195db6a1a70623e05953e.jpg" alt="Daenerys">
+                </div>
+            </div>
+
+            <div class="col-md-5 ps-md-5">
+                <div id="character-info">
+                    <h2 id="char-name" class="fw-bold mb-3">Tyrion Lannister</h2>
+                    <p id="char-desc" class="description-text text-light">
+                        Lord Tyrion Lannister is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces.
+                    </p>
+                    <a
+                        id="char-details-link"
+                        class="char-details-link"
+                        href="characters/tyrion.html"
+                    >
+                        Read Tyrion Dossier
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-5 text-center">
+                <img loading="lazy" id="char-big-img" src="https://i.pinimg.com/736x/d4/19/0c/d4190cffb4c5ddaae39ad6632c2be2fe.jpg" class="img-fluid char-main-fade" alt="Main">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="staff-section py-5 bg-white">
+    <div class="container">
+        
+        <div class="staff-header mb-4">
+            <span class="staff-sub">LATEST WORKS</span>
+            <h1 class="staff-main">Staff</h1>
+            <div class="staff-line"></div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="staff-intro">
+                    <h2 class="intro-heading">Where <span class="navy-bold">Creative</span> Minds Unite!</h2>
+                    <p class="intro-text">A collective of strategic thinkers and digital creators based in the heart of the industry.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="staff-card">
+                            <img loading="lazy" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" class="staff-img" alt="Michael">
+                            <div class="staff-meta mt-3">
+                                <h6 class="name">Michael Reynolds</h6>
+                                <p class="role">DIRECTOR OF PHOTOGRAPHY</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="staff-card">
+                            <img loading="lazy" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg" class="staff-img" alt="Benjamin">
+                            <div class="staff-meta mt-3">
+                                <h6 class="name">Benjamin Foster</h6>
+                                <p class="role">CREATIVE DIRECTOR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="staff-card">
+                            <img loading="lazy" src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg" class="staff-img" alt="David">
+                            <div class="staff-meta mt-3">
+                                <h6 class="name">David Mortimer</h6>
+                                <p class="role">PRODUCTION MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="got-vibes" class="cinematic-section">
+  <div class="container display-flex">
+    <div class="text-content">
+      <div class="section-number">05</div>
+      <p class="sub-label">IF YOU LIKED GAME OF THRONES</p>
+      <h2 class="main-title">POWER, BLOOD <br> & THRONES</h2>
+      <div class="lin-decorator"></div>
+      <p class="description">
+        For those who miss the political intrigue of Westeros and the brutal battles for the crown, these epic sagas offer a world of betrayal, honor, and destiny.
+      </p>
+      <a href="Vikings.html" target="_blank" class="view-btn">EXPLORE THE KINGDOMS</a>
+    </div>
+
+    <div class="image-grid-fancy">
+      <div class="img-wrapper large">
+        <img loading="lazy" src="https://i.pinimg.com/736x/af/c9/60/afc960eb79b2c05bedd18c1972a99995.jpg" alt="House of the Dragon">
+      </div>
+      <div class="img-wrapper medium">
+        <img loading="lazy" src="https://i.pinimg.com/736x/f6/64/b7/f664b7b1dd48ed832dd3ac8a96384566.jpg" alt="Vikings">
+      </div>
+      <div class="img-wrapper small">
+        <img loading="lazy" src="https://i.pinimg.com/736x/80/de/40/80de40b3feb23d893d29e918a8fb60a7.jpg" alt="The Last Kingdom">
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="stats-section">
+    <div class="container stats-container">
+        
+        <div class="corner-green corner-tl"></div>
+        <div class="corner-green corner-br"></div>
+
+        <div class="row g-0">
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-item first-item">
+                    <h1 class="stat-number">1.7B+</h1>
+                    <h6 class="stat-label">BOX OFFICE GROSS</h6>
+                    <p class="stat-text">The first R-rated film in history to pass the billion-dollar mark worldwide.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-item">
+                    <h1 class="stat-number">11</h1>
+                    <h6 class="stat-label">OSCAR NOMINATIONS</h6>
+                    <p class="stat-text">Dominating the 92nd Academy Awards with recognition across all categories.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-item">
+                    <h1 class="stat-number">2</h1>
+                    <h6 class="stat-label">ACADEMY WINS</h6>
+                    <p class="stat-text">Securing Best Actor for Joaquin Phoenix and Best Original Score.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="stat-item">
+                    <h1 class="stat-number">8.4</h1>
+                    <h6 class="stat-label">IMDB RATING</h6>
+                    <p class="stat-text">Ranked among the top-rated films of all time by global viewers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="got-footer py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            
+            <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+                <img loading="lazy" src="imag-got/logogot.png" alt="GOT Logo" class="footer-logo">
+                <p class="mt-3 footer-slogan">Winter is here. The final battle begins.</p>
+            </div>
+
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <ul class="footer-links d-flex justify-content-center gap-4 list-unstyled">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">CAST</a></li>
+                    <li><a href="#">SEASONS</a></li>
+                    <li><a href="#">EPISODES</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 text-center text-md-end">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider my-5">
+
+        <div class="row">
+            <div class="col-12 text-center copyright-text">
+                <p>&copy; 2026 SHOWTIME | All Rights Reserved. Created by <span class="designer-name">Mohamed cheffou</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <div id="videoModal" class="video-overlay" aria-hidden="true">
+        <span class="close-video" id="closeVideoBtn" role="button" aria-label="Close trailer">&times;</span>
+        <div class="overlay-content">
+            <video id="fullVideo" controls>
+                <source src="imag-got/gottriler.mp4" type="video/mp4">
+            </video>
+            <div class="video-info-overlay">
+                <p class="subtitle">WINTER IS HERE</p>
+                <h2 class="title">GAME OF THRONES</h2>
+                <p class="description">Watch the official trailer and enter the Seven Kingdoms.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="got.js"></script>
+</body>
+</html>

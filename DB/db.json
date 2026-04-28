@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "name": "Youssef",
+      "email": "youssef@gmail.com",
+      "password": "123",
+      "id": "c15AHR9hZ4M"
+    },
+    {
+      "name": "mohamed",
+      "email": "mohamed@gmail.com",
+      "password": "mohamed123",
+      "id": "wR7p4Jll_jI"
+    }
+  ],
+  "playlists": [
+    {
+      "userId": "c15AHR9hZ4M",
+      "showId": "866398",
+      "type": "movie",
+      "title": "The Beekeeper",
+      "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "vote_average": 7.244,
+      "id": "m5T36x219M0"
+    },
+    {
+      "userId": "c15AHR9hZ4M",
+      "showId": "1049471",
+      "type": "movie",
+      "title": "Outcome",
+      "poster_path": "/kSzcpfbTy2pXHGvrVU2WhQTo6oU.jpg",
+      "vote_average": 5.359,
+      "id": "qFE88eKA-Fk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
